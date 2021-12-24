@@ -17,7 +17,7 @@ const App = () => {
    <Router>
     <Navbar/>
     <Routes>
-        <Route exact path="/" element={<Home />} />
+        <Route exact path="/JustPlayMusicOffical" element={<Home />} />
       </Routes>
       <Routes>
         <Route path="service" element={<Services/>} />
