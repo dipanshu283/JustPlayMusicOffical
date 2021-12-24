@@ -33,7 +33,7 @@ const Navbar = () => {
             </div>
             
             <li className="nav-item">
-              <NavLink className="nav-link " to="/" exact>
+              <NavLink className="nav-link " to="/JustPlayMusicOffical" exact>
                 <i 
                 className="fas fa-home">
                 </i>Home

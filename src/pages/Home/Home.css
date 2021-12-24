@@ -1,34 +1,116 @@
-.home_main{
-    width: 100%;
-    height: 80vh;
-    background-image: 
-    linear-gradient(0deg, rgba(0, 0, 0, 0.051) 25%, rgba(0, 0, 0, 0.291) 75%, rgba(0, 0, 0, 0.945) 100%), url(main_img2.jpg);
-background-size:cover;
-background-position: center; 
-    background-size:cover;
-    background-position: center; 
+@import url("https://fonts.googleapis.com/css2?family=Chango&family=Vujahday+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chango&family=Pushster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chango&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Vujahday+Script&display=swap");
+
+.home_main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 80vh;
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.7) 5%,
+      rgba(0, 0, 0, 0.2) 25%,
+      rgba(0, 0, 0, 0.5) 75%,
+      rgba(0, 0, 0, 0.7) 100%
+    ),
+    url(main_img2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-size: cover;
+  background-position: center;
 }
 
-@media only screen and (min-width :550px) and (max-width: 960px ) {
-.home_main{
-    height: 65vh;
-    background-image: 
-    linear-gradient(0deg, rgba(0, 0, 0, 0.051) 25%, rgba(0, 0, 0, 0.291) 75%, rgba(0, 0, 0, 0.945) 100%), url(main_img2.jpg);
-background-size:cover;
-background-position: center; 
-   
-    }
-  }
+.main_heading {
+  color: #bfd6ec;
+  font-size: 50px;
+  font-weight: 700;
+  text-shadow: 2px 3px 42px rgba(86, 212, 243, 0.705);
+  font-family: "Vujahday Script", cursive;
+}
 
-@media only screen and (max-width: 550px ) {
-.home_main{
-    height: 50vh;
-    background-image: 
-    linear-gradient(0deg, rgba(0, 0, 0, 0.051) 25%, rgba(0, 0, 0, 0.291) 75%, rgba(0, 0, 0, 0.945) 100%), url(wallpaperflare.com_wallpaper.jpg);
-background-size:cover;
-background-position: center; 
-background-size:cover;
-background-position: center; 
-   
-    }
+.main_pera {
+  color: #bfd6ec;
+  text-shadow: 2px 3px 42px rgba(123, 194, 206, 0.658);
+  margin-top: 6px;
+  font-weight: 500;
+  font-size: 17px;
+}
+.featured {
+  width: 100%;
+  min-height: 50vh;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: top;
+  padding-top: 40px;
+  color: white;
+  font-family: "Lato", sans-serif;
+}
+.feature_heading {
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.release {
+  margin-top: 10px;
+  font-weight: 200;
+  font-size: 30px;
+}
+
+@media only screen and (min-width: 550px) and (max-width: 960px) {
+  .home_main {
+    height: 65vh;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.051) 25%,
+        rgba(0, 0, 0, 0.291) 75%,
+        rgba(0, 0, 0, 0.945) 100%
+      ),
+      url(main_img2.jpg);
+    background-size: cover;
+    background-position: center;
   }
+  .main_heading {
+    color: #bfd6ec;
+    font-size: 40px;
+}
+.main_pera{
+  font-size: 13px;
+}
+}
+
+@media only screen and (max-width: 550px) {
+  .home_main {
+    height: 50vh;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.051) 25%,
+        rgba(0, 0, 0, 0.291) 75%,
+        rgba(0, 0, 0, 0.945) 100%
+      ),
+      url(wallpaperflare.com_wallpaper.jpg);
+    background-size: cover;
+    background-position: center;
+    background-size: cover;
+    background-position: center;
+    
+  }
+  .main_heading {
+    color: #bfd6ec;
+    font-size: 30px;
+}
+.main_pera{
+  font-size: 10px;
+}
+}
+
+.newsongswrapper{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}

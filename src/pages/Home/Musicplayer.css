@@ -1,0 +1,61 @@
+.musicplayerwrapper{
+    background-color: rgba(255, 255, 255, 0.87);
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 25px 40px;
+    margin: 30px;
+    border-radius: 30px;
+
+}
+.musciplayerimgdiv {   
+    width: 250px;
+    height: 250px;
+    margin-top: 20px;
+
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    box-shadow: 0 12px 30px 10px rgba(0, 0, 0, 0.534);
+    object-fit:cover ;
+}
+.musictitle{
+    
+    font-weight: 700;
+}
+.musicartist{
+    color: rgba(0, 0, 0, 0.822);
+}
+
+.playclass{
+    font-size: 30px;
+    margin-top: 30px;
+    border-radius: 50%;
+    color: white;
+    width: 52px;
+    height: 52px;
+    background-color: black;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 9px 24px 8px rgba(0, 0, 0, 0.534);
+}
+
+.anime{
+    animation: rotateplayer 4s linear infinite;
+}
+
+@keyframes rotateplayer {
+    form{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
