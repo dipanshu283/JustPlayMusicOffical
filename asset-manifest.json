@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/JustPlayMusicOffical/static/css/main.647bef7a.css",
+    "main.js": "/JustPlayMusicOffical/static/js/main.2fb1cc00.js",
+    "static/js/787.eb516e35.chunk.js": "/JustPlayMusicOffical/static/js/787.eb516e35.chunk.js",
+    "static/media/wallpaperflare.com_wallpaper.jpg": "/JustPlayMusicOffical/static/media/wallpaperflare.com_wallpaper.4d6d188c145dcdaffda6.jpg",
+    "static/media/main_img2.jpg": "/JustPlayMusicOffical/static/media/main_img2.af2273d77054916a9b25.jpg",
+    "index.html": "/JustPlayMusicOffical/index.html",
+    "main.647bef7a.css.map": "/JustPlayMusicOffical/static/css/main.647bef7a.css.map",
+    "main.2fb1cc00.js.map": "/JustPlayMusicOffical/static/js/main.2fb1cc00.js.map",
+    "787.eb516e35.chunk.js.map": "/JustPlayMusicOffical/static/js/787.eb516e35.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.647bef7a.css",
+    "static/js/main.2fb1cc00.js"
+  ]
+}
