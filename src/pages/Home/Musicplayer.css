@@ -6,13 +6,14 @@
     justify-content: center;
     flex-direction: column;
     padding: 25px 40px;
+    padding-bottom: 5px;
     margin: 30px;
     border-radius: 30px;
 
 }
 .musciplayerimgdiv {   
-    width: 250px;
-    height: 250px;
+    width: 260px;
+    height: 260px;
     margin-top: 20px;
 
 }
@@ -23,6 +24,10 @@ img{
     border-radius: 50%;
     box-shadow: 0 12px 30px 10px rgba(0, 0, 0, 0.534);
     object-fit:cover ;
+    cursor: pointer;
+}
+img:hover{
+    transform: scale(0.97);
 }
 .musictitle{
     
@@ -44,7 +49,12 @@ img{
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 9px 24px 8px rgba(0, 0, 0, 0.534);
+    box-shadow: 0 9px 24px 8px rgba(0, 0, 0, 0.234);
+ 
+}
+.playclass:hover{   
+    transform: scale(0.9);
+
 }
 
 .anime{
@@ -58,4 +68,9 @@ img{
     to{
         transform: rotate(360deg);
     }
+}
+
+.fullsong{
+    margin-left: 10px;
+    margin-top: 25px;
 }

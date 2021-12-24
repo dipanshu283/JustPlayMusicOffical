@@ -42,11 +42,13 @@ function Musicplayer(props) {
         <h2 className="musictitle">Mumtaaz</h2>
         <p className="musicartist">Ft. Aksh Sawarne</p>
         <div className={`musciplayerimgdiv ${anime}`}>
-          <img src={require("./mumtaaz.png")} alt="img" />
+        <a href="https://youtu.be/Q2D5_xGXdfE?list=RDQ2D5_xGXdfE" rel="noreferrer" target="_blank" > <img src={require("./mumtaaz.png")} alt="img" /> </a>
         </div>
         {/* <audio src={require("./music.mp3")}></audio> */}
 
         <i className={`fas playclass fa-${playbutton}`} onClick={play}></i>
+
+        <p className="fullsong"> To listen full song tab above image.  </p>
       </div>
     </>
   );
