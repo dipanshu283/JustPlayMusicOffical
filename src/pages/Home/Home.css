@@ -51,6 +51,8 @@
   font-family: "Lato", sans-serif;
 }
 .feature_heading {
+  
+  color:#b8a644 ;
   text-transform: uppercase;
   font-weight: 500;
 }
@@ -75,7 +77,6 @@
     background-position: center;
   }
   .main_heading {
-    color: #bfd6ec;
     font-size: 40px;
 }
 .main_pera{
@@ -100,8 +101,7 @@
     
   }
   .main_heading {
-    color: #bfd6ec;
-    font-size: 30px;
+    font-size: 28px;
 }
 .main_pera{
   font-size: 10px;

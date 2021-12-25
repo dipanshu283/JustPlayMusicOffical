@@ -5,17 +5,16 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 25px 40px;
+    padding: 20px 35px;
     padding-bottom: 5px;
     margin: 30px;
     border-radius: 30px;
 
 }
 .musciplayerimgdiv {   
-    width: 260px;
-    height: 260px;
+    width: 230px;
+    height: 230px;
     margin-top: 20px;
-
 }
 
 img{
@@ -71,6 +70,16 @@ img:hover{
 }
 
 .fullsong{
-    margin-left: 10px;
+    margin: 5px 10px;
     margin-top: 25px;
+}
+
+@media only screen and (max-width: 360px){
+    
+    .musciplayerimgdiv {   
+        width: 210px;
+        height: 210px;
+    }
+
+
 }

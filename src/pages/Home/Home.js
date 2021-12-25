@@ -7,10 +7,10 @@ const Home = () => {
     <>
       <div className="home_main">
         <h1 className="main_heading">Just Play Music Offical. </h1>
-        <p className="main_pera">
+        {/* <p className="main_pera">
           We collaborate with artists to develop new music with an origianl
           perspective!
-        </p>
+        </p> */}
       </div>
       <section className="featured">
         <h3 className="feature_heading">featured</h3>
