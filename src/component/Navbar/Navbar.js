@@ -24,7 +24,7 @@ const Navbar = () => {
       </button>
  
       <div 
-        className="collapse navbar-collapse" id="navbarSupportedContent">
+        className="collapse navbar-collapse" style={{marginLeft:"500px"}} id="navbarSupportedContent">
         <ul className="navbar-nav ml-auto">
             
             <div className="hori-selector">
@@ -41,27 +41,21 @@ const Navbar = () => {
             </li>
 
             <li className="nav-item">
-              <NavLink className="nav-link" to="/about" exact>
+              <NavLink className="nav-link" to="/portfolio" exact>
                 <i 
                 className="far fa-address-book">
-                </i>About Us
+                </i>Portfolio
               </NavLink> 
             </li>
 
             <li className="nav-item">
-              <NavLink className="nav-link" to="/service" exact>
+              <NavLink className="nav-link" to="/about" exact>
                 <i 
                 className="far fa-clone">
-                </i>Services
+                </i>About Us
               </NavLink>
             </li>
-            <li className="nav-item">
-              <NavLink className="nav-link" to="/testimonial" exact>
-                <i 
-                className="far fa-chart-bar">
-                </i>Testimonial
-              </NavLink>
-            </li>
+       
             <li className="nav-item">
               <NavLink className="nav-link" to="/contact" exact>
                 <i 

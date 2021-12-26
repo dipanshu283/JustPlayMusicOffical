@@ -15,7 +15,7 @@ function Musicplayer(props) {
 
         const funcplay = () => {
           setplaysong(true);
-          {/* song.intro.play(); */}
+       //   song.intro.play();
            songg.play();
 
           setplaybutton("square");
@@ -25,37 +25,40 @@ function Musicplayer(props) {
 
         const funcpause = () => {
           setplaysong(false);
-          {/* song.intro.pause(); */}
+          // song.intro.pause(); 
           songg.pause();
           setplaybutton("play");
           console.log(playbutton);
           setanime("");
         };
 
-        const playy = () => {
-          playsong ? funcpause() : funcplay();
-        };
-
+      // const playy = () => {
+         
+    //    }; 
+    
         return (
-          <>
-            <div key={song.Link_index} className="musicplayerwrapper">
+            <div key={index} className="musicplayerwrapper">
               <h2 className="musictitle">{song.Title}</h2>
               <p className="musicartist">{song.FtBy}</p>
-              <div className={`musciplayerimgdiv ${anime}`}>
+              <div className={`musciplayerimgdiv${index} ${anime}`}>
                 <a href={song.Link} rel="noreferrer" target="_blank">
                   {" "}
-                  <img src={require(`${song.Img}`)} alt="img" />{" "}
+                  <img className="introimg" src={require(`${song.Img}`)} alt="img" />{" "}
                 </a>
               </div>
 
               <i
                 className={`fas playclass fa-${playbutton}`}
-                onClick={playy}
+                onClick={(e)=>{ 
+                  console.log(e);
+                                    playsong ? funcpause() : funcplay();
+
+                }}
               ></i>
 
               <p className="fullsong"> To listen full song tab above image. </p>
             </div>
-          </>
+        
         );
       })}
     </>

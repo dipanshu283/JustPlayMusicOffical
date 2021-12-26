@@ -1,0 +1,135 @@
+.contact_wrapper{
+    padding-top: 50px;
+    background-color: rgb(12, 11, 11);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+   min-height: 80vh;
+}
+.contactmain{
+    height: 50vh;
+}
+
+.contact_heading{
+    color: #b8a644;
+    font-weight: 500;
+
+}
+.thin{
+    font-weight: 200;
+}
+
+@import url(//fonts.googleapis.com/css?family=Montserrat:300,400,500);
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Montserrat:wght@500&family=Righteous&display=swap');
+
+
+.formimg{
+   background-image: url(contactimg.jpg);
+    background-position: center;
+    background-size: cover;   
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    background-color: lavender;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    padding: 40px;
+}
+.wrap{
+    background-color:rgba(0, 0, 0, 0.514);
+    padding: 30px 10px;
+    border-radius: 30px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.leavefont{
+    font-family: 'Righteous', cursive;
+    color: white;
+}
+.formword{
+    width: 300px;
+    margin-top: 30px;
+    padding-left: 25px;
+    
+}
+
+
+.input100{
+    border: none;
+    outline: none;
+    width: 90%;
+    padding: 6px;
+    background-color: rgba(255, 255, 255, 0);
+    border-bottom: 1.5px solid rgb(255, 255, 255);
+    color: white;
+}
+ 
+
+.submitbtn{
+    margin: 20px 0px;
+    padding: 5px 10px ;
+    border-radius: 10px;
+    background-color: #b8a644;
+    color: rgb(239, 243, 245);
+    border:none;
+    font-weight: 500;
+    font-size: 17px;
+
+}
+.submitbtn:hover{
+    transform: scale(1.02);
+}
+.spacing{
+    font-size: 17px;
+    font-weight: 300;
+    color:white
+    
+}
+.infoo{
+    padding-left: 40px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    align-items: flex-start;
+    flex-direction: column;
+ 
+
+
+}
+.contactfont{
+    margin-bottom: 30px;
+    color: white;
+}
+
+p{
+    font-weight: 500;
+    color: white;
+}
+.he{
+    color: #b8a644;
+    font-weight: 700;
+}
+.fa-youtube{
+    color: #b8a644;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-right: 20px;
+}
+.fa-instagram{
+    color: #b8a644;
+    font-size: 30px;
+
+}
+.fa-youtube:hover{
+    transform: scale(1.09);
+}
+.fa-instagram:hover{
+    transform: scale(1.09);
+}
+
