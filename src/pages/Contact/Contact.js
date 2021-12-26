@@ -1,9 +1,45 @@
-import React from "react";
+import React , {useState}  from "react";
 import "./Contact.css";
 import "./contactusy.png";
+import emailjs from 'emailjs-com';
+import { useRef } from "react";
+
+
+const Result  = ()=>{
+
+  return(
+
+  <p>Your Message has successfully sent. We will contact you soon..</p>
+  )
+};
 
 const Contact = () => {
-  // const png = require("./contactusy.png");
+
+
+
+  const FORM = useRef();
+  console.log(FORM);
+
+  const [result , showResult] = useState(false);
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_y2lj63l', 'template_bwdxa4a', e.target, 'user_0l7ZLjVSY91iP7xoxqeKY')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+      e.target.reset();
+      showResult(true);
+    };
+
+    setTimeout(() => {
+
+      showResult(false)
+      
+    }, 4000);
 
   return (
     <>
@@ -21,17 +57,17 @@ const Contact = () => {
             <h2 className="contactfont leavefont">Contact</h2>
 
             <h4 className="he">
-              <i class="fas fa-phone-alt"></i>PHONE{" "}
+              <i className="fas fa-phone-alt"></i>PHONE{" "}
             </h4>
             <p>+91 992 xxx xxx</p>
             <p>+91 992 xxx xxx</p>
             <h4 className="he">
-              <i class="far fa-envelope"></i>Email
+              <i className="far fa-envelope"></i>Email
             </h4>
             <p>info@justplaymusic.com</p>
             <p></p>
             <h4 className="he">
-              <i class="fas fa-street-view"></i>ADDRESS
+              <i className="fas fa-street-view"></i>ADDRESS
             </h4>
             <p>64,jail road , vijay nagar , Indore</p>
             <div>
@@ -40,7 +76,7 @@ const Contact = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <i class="fab fa-youtube"></i>
+                <i className="fab fa-youtube"></i>
               </a>
 
               <a
@@ -48,11 +84,11 @@ const Contact = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <i class="fab fa-instagram"></i>
+                <i className="fab fa-instagram"></i>
               </a>
             </div>
           </div>
-          <form action="" onSubmit="">
+          <form href={FORM} action="" onSubmit={sendEmail}>
             <div className="formword">
               <h2 className="leavefont">Leave a Message !</h2>
               <span className="spacing">Full Name</span>
@@ -83,7 +119,10 @@ const Contact = () => {
               <br />
               <div>
               <button className="submitbtn">SUBMIT</button>
-              <span> </span>
+                
+                <span> {result? <Result/> :null} </span> 
+      
+            
               </div>
             
             </div>
@@ -94,4 +133,5 @@ const Contact = () => {
     </>
   );
 };
+
 export default Contact;
