@@ -1,26 +1,56 @@
-import React  from 'react'
-import './Navbar.css';
-import { NavLink } from 'react-router-dom';
-// import $ from 'jquery';
+import React, { useState } from "react";
+import "./Navbar.css";
+import { sideBarData } from "./Navitems";
+import { NavLink } from "react-router-dom";
+import * as FaIcons from "react-icons/fa";
+import * as AiIcons from "react-icons/ai";
+import {IconContext} from "react-icons"
 
 const Navbar = () => {
+  const [sidebar, setSidebar] = useState(false);
 
+  const showSidebar = () => setSidebar(!sidebar);
 
   return (
-  <nav className="navbar navbar-expand-lg navbar-mainbg">
-    
+    <nav className="navbar navbar-expand-lg navbar-mainbg">
       <NavLink className="navbar-brand navbar-logo" to="/" exact>
-       <h2 className='main_name'> JustPlayMusic </h2>
+        <h2 className="main_name"> JustPlayMusic </h2>
       </NavLink>
-    
-    
-      <button 
+
+      <IconContext.Provider  value={{color:"#fff"}}>
+
+      <div className="navbarr">
+        <NavLink className="menu-bars" to="# ">
+          <FaIcons.FaBars onClick={showSidebar} />
+        </NavLink>
+      </div>
+      <nav className={sidebar ? "nav-menu active" : "nav-menu"}>
+        <ul className="nav-menu-items" onClick={showSidebar}>
+          <li className="navbar-toggle">
+            <NavLink to="#" className="menu-bars">
+              <AiIcons.AiOutlineClose />
+            </NavLink>
+          </li>
+
+          {sideBarData.map((item , index)=>{
+
+            return(
+              <li key={index} className={item.cNmae}>
+                <NavLink to={item.path}>
+                  {item.icon}
+                  <span>{item.title}</span>
+                </NavLink>
+              </li>
+            )
+          })}
+
+        </ul>
+      </nav>
+      </IconContext.Provider>
+
+       <button 
         className="navbar-toggler"
-        // onClick={ function(){
-        //   setTimeout(function(){ animation(); });
-        // }}
-        type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <i className="fas fa-bars text-white"></i>
+        type="button" data-toggle="collapse" aria-label="Toggle navigation">
       </button>
  
       <div 
@@ -36,7 +66,7 @@ const Navbar = () => {
               <NavLink className="nav-link " to="/JustPlayMusicOffical" exact>
                 <i 
                 className="fas fa-home">
-                </i>Home
+                </i> <span className='coloor'>Home</span>
               </NavLink>
             </li>
 
@@ -44,7 +74,7 @@ const Navbar = () => {
               <NavLink className="nav-link" to="/portfolio" exact>
                 <i 
                 className="far fa-address-book">
-                </i>Portfolio
+                </i> <span className='coloor'>Portfolio</span>
               </NavLink> 
             </li>
 
@@ -52,7 +82,7 @@ const Navbar = () => {
               <NavLink className="nav-link" to="/about" exact>
                 <i 
                 className="far fa-clone">
-                </i>About Us
+                </i> <span className='coloor'>About Us</span>
               </NavLink>
             </li>
        
@@ -60,12 +90,12 @@ const Navbar = () => {
               <NavLink className="nav-link" to="/contact" exact>
                 <i 
                 className="far fa-copy">
-                </i>Contact Us
+                </i> <span className='coloor'>Contact Us</span>
               </NavLink>
             </li>
         </ul>
-      </div>
-  </nav>
-  )
-}
+      </div> 
+    </nav>
+  );
+};
 export default Navbar;

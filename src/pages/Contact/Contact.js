@@ -57,7 +57,7 @@ const Contact = () => {
             <h2 className="contactfont leavefont">Contact</h2>
 
             <h4 className="he">
-              <i className="fas fa-phone-alt"></i>PHONE{" "}
+              <i className="fas fa-phone-alt"></i>PHONE
             </h4>
             <p>+91 992 xxx xxx</p>
             <p>+91 992 xxx xxx</p>

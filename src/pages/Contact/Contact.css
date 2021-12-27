@@ -44,12 +44,12 @@
     width: 80%;
     display: flex;
     flex-wrap: wrap;
-
 }
 
 .leavefont{
     font-family: 'Righteous', cursive;
     color: white;
+    margin-bottom: 20px;
 }
 .formword{
     width: 300px;
@@ -63,10 +63,12 @@
     border: none;
     outline: none;
     width: 90%;
-    padding: 6px;
+    /* padding: 6px; */
+    padding: 2px;
     background-color: rgba(255, 255, 255, 0);
     border-bottom: 1.5px solid rgb(255, 255, 255);
     color: white;
+    margin-bottom: 10px;
 }
  
 
@@ -85,7 +87,7 @@
     transform: scale(1.02);
 }
 .spacing{
-    font-size: 17px;
+    font-size: 1;
     font-weight: 300;
     color:white
     
@@ -98,8 +100,6 @@
     justify-content: start;
     align-items: flex-start;
     flex-direction: column;
- 
-
 
 }
 .contactfont{
@@ -121,11 +121,13 @@ p{
     padding-top: 10px;
     padding-right: 20px;
 }
+
 .fa-instagram{
     color: #b8a644;
     font-size: 30px;
 
 }
+
 .fa-youtube:hover{
     transform: scale(1.09);
 }
@@ -133,3 +135,40 @@ p{
     transform: scale(1.09);
 }
 
+@media only screen and (max-width:580px) {
+    
+    .wrap{
+
+        width: 90%;
+    }
+    .formword{
+        margin-top: 100px;
+    }
+
+    
+}
+@media only screen and (max-width:435px) {
+    
+    .wrap{
+
+        width: 95%;
+    }
+    .formword{
+        width: 280px;
+        margin-top: 30px;
+        padding-left: 20px;
+        
+    }
+    .infoo{
+        padding-left: 20px;
+        width: 380px;
+    }
+    .formword{
+        margin-top: 100px;
+    }
+    
+
+   
+
+    
+}
