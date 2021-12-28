@@ -1,25 +1,32 @@
 {
   "files": {
-    "main.css": "/JustPlayMusicOffical/static/css/main.88bca285.css",
-    "main.js": "/JustPlayMusicOffical/static/js/main.d3a81c19.js",
+    "main.css": "/JustPlayMusicOffical/static/css/main.7d894581.css",
+    "main.js": "/JustPlayMusicOffical/static/js/main.a5d4aae3.js",
     "static/js/787.eb516e35.chunk.js": "/JustPlayMusicOffical/static/js/787.eb516e35.chunk.js",
     "static/media/Mumtaaz.mp3": "/JustPlayMusicOffical/static/media/Mumtaaz.99915863a29ff94114e5.mp3",
+    "static/media/justplaymusic.png": "/JustPlayMusicOffical/static/media/justplaymusic.446570b12b079005eb20.png",
     "static/media/mumtaaz.png": "/JustPlayMusicOffical/static/media/mumtaaz.9fd6f0468436fe603f8e.png",
     "static/media/wallpaperflare.com_wallpaper.jpg": "/JustPlayMusicOffical/static/media/wallpaperflare.com_wallpaper.4d6d188c145dcdaffda6.jpg",
     "static/media/main_img2.jpg": "/JustPlayMusicOffical/static/media/main_img2.af2273d77054916a9b25.jpg",
+    "static/media/karanjuneja.jpg": "/JustPlayMusicOffical/static/media/karanjuneja.d3ea6b55b810da751a20.jpg",
+    "static/media/guru.jpg": "/JustPlayMusicOffical/static/media/guru.234401b8808e88214c61.jpg",
     "static/media/contactimg.jpg": "/JustPlayMusicOffical/static/media/contactimg.ed37646b83ddc4b9fb4c.jpg",
+    "static/media/mani.jpg": "/JustPlayMusicOffical/static/media/mani.b31df49d8e7498f0ffb6.jpg",
     "static/media/himanshu.jpeg": "/JustPlayMusicOffical/static/media/himanshu.0912cbe1bac4f0e146e5.jpeg",
+    "static/media/lalit.jpg": "/JustPlayMusicOffical/static/media/lalit.293faeb8e9bed97dbd7e.jpg",
     "static/media/simarjeetkuar.jpg": "/JustPlayMusicOffical/static/media/simarjeetkuar.1164b368c4cf44452134.jpg",
-    "static/media/nikharjuneja.jpg": "/JustPlayMusicOffical/static/media/nikharjuneja.577e9055a2f628d53c09.jpg",
+    "static/media/nikhar.jpg": "/JustPlayMusicOffical/static/media/nikhar.99d69626d44fbf9db7e9.jpg",
+    "static/media/aksh.jpg": "/JustPlayMusicOffical/static/media/aksh.34fbb5c7c436f8a2af28.jpg",
+    "static/media/simar.jpg": "/JustPlayMusicOffical/static/media/simar.3f1f203cb0132bedbf30.jpg",
     "static/media/imginsta.png": "/JustPlayMusicOffical/static/media/imginsta.98ded4a6777f552141f6.png",
     "static/media/contactusy.png": "/JustPlayMusicOffical/static/media/contactusy.2c35e4b551f68e2996c5.png",
     "index.html": "/JustPlayMusicOffical/index.html",
-    "main.88bca285.css.map": "/JustPlayMusicOffical/static/css/main.88bca285.css.map",
-    "main.d3a81c19.js.map": "/JustPlayMusicOffical/static/js/main.d3a81c19.js.map",
+    "main.7d894581.css.map": "/JustPlayMusicOffical/static/css/main.7d894581.css.map",
+    "main.a5d4aae3.js.map": "/JustPlayMusicOffical/static/js/main.a5d4aae3.js.map",
     "787.eb516e35.chunk.js.map": "/JustPlayMusicOffical/static/js/787.eb516e35.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.88bca285.css",
-    "static/js/main.d3a81c19.js"
+    "static/css/main.7d894581.css",
+    "static/js/main.a5d4aae3.js"
   ]
 }
