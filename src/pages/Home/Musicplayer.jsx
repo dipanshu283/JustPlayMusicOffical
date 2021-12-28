@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Musicplayer.css";
-import intro from "./Mumtaaz.mp3";
+import intro from "./mumtaznewintro.m4a";
 
 function Musicplayer(props) {
   let songg = new Audio(intro);
@@ -27,8 +27,8 @@ function Musicplayer(props) {
   return (
     <>
       <div className="musicplayerwrapper">
-        <h2 className="musictitle">MUMTAAZ</h2>
-        <p className="musicartist">Aksh Sawarne</p>
+        <h2 className="musictitle">MUMTAZ</h2>
+        <p className="musicartist">Simarjeet Kaur , Mani Singh</p>
         <div className={`musciplayerimgdiv ${anime}`}>
           <a
             href="https://youtu.be/Q2D5_xGXdfE?list=RDQ2D5_xGXdfE"

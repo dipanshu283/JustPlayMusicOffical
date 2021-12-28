@@ -16,6 +16,8 @@ const Result  = ()=>{
 const Contact = () => {
 
   const imginsta = require("./imginsta.png");
+  const metaimg = require("./meta.png");
+  const constactusr = require('./contactusy.png');
 
 
 
@@ -50,6 +52,7 @@ const Contact = () => {
         <h1 className="contact_heading blackbg">
           <span className="thin">CONTACT</span> Us
         </h1>
+      
 
         <div className="formimg">
         <div className="wrap">
@@ -59,17 +62,17 @@ const Contact = () => {
             <h4 className="he">
               <i className="fas fa-phone-alt"></i> PHONE
             </h4>
-            <p>+91 992 xxx xxx</p>
-            <p>+91 992 xxx xxx</p>
+            <p>+91 88788 50402</p>
+            <p>+91 89822 86717</p>
             <h4 className="he">
               <i className="far fa-envelope"></i> Email
             </h4>
-            <p>info@justplaymusic.com</p>
+            <p>justplaymusic28@gmail.com</p>
             <p></p>
-            <h4 className="he">
+            {/* <h4 className="he">
               <i className="fas fa-street-view"></i> ADDRESS
             </h4>
-            <p>64,jail road , vijay nagar , Indore</p>
+            <p>64,jail road , vijay nagar , Indore</p> */}
             <h4 className="he">
               <i className="fas fa-user-alt"></i> SOCIAL MEDIA
               <div>
@@ -78,7 +81,7 @@ const Contact = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <i className="fab fa-youtube"></i>
+                <i className="fab fa-youtube insta"></i>
               </a>
 
               <a
@@ -87,6 +90,13 @@ const Contact = () => {
                 rel="noreferrer"
               >
                 <img src={imginsta} width="25px" height="25px" style={{marginBottom:"10px"}} className="insta" alt="img"></img>
+              </a>
+              <a
+                href="https://www.facebook.com/Just-Play-Music-2274104402914356"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src={metaimg} width="25px" height="25px" style={{marginBottom:"10px" , marginLeft:"15px"}} className="insta" alt="img"></img>
               </a>
             </div>
             </h4>

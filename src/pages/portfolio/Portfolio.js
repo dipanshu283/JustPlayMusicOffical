@@ -81,7 +81,7 @@ const Portfolio = () => {
             <p className="fullsong"> To listen full song tab above image. </p>
           </div>
           <div className="musicplayerwrapper" style={{marginBottom:"40px" ,marginTop:"40px"}}>
-            <h2 className="musictitle">Jaavi Na</h2>
+            <h2 className="musictitle">JAANI NA</h2>
             <p className="musicartist">Guru Mankan</p>
             <div className={`musciplayerimgdiv ${anime2}`}>
               <a

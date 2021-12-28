@@ -34,9 +34,9 @@ We are a home to an array of incredible and contemporary work of talented music 
 
  </div> 
 
-        <NavLink className="nav-link readmore btnshowhide" to="/about" style={{margin:"20px", borderRadius:"9px"}} exact>
-          <div className="seemore" style={{ color: "#b8a644" }}>
-            <span style={{ margin: "18px"  }}>See More</span>
+        <NavLink className="nav-link readmore " to="/about" style={{margin:"20px", borderRadius:"9px"}} exact>
+          <div className="seemore btnshowhide" style={{ color: "#b8a644" }}>
+            <span style={{ margin: "18px"  }}>Read More</span>
           </div>
         </NavLink>
 

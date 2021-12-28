@@ -14,7 +14,7 @@ const Navbar = () => {
 
   return (
     <nav className="navbar navbar-expand-lg navbar-mainbg">
-      <NavLink className="navbar-brand navbar-logo" to="/" exact>
+      <NavLink className="navbar-brand navbar-logo" to="/JustPlayMusicOffical" exact>
         <img src={logo} alt="logo" width="50px" style={{marginLeft:"20px"}}/>
 
 
@@ -27,7 +27,7 @@ const Navbar = () => {
           <FaIcons.FaBars onClick={showSidebar} />
         </NavLink>
       </div>
-      <nav className={sidebar ? "nav-menu active" : "nav-menu"}>
+      <nav className={sidebar ? "nav-menu active" : "nav-menu"} style={{zIndex:"3"}}>
         <ul className="nav-menu-items" onClick={showSidebar}>
           <li className="navbar-toggle">
             <NavLink to="#" className="menu-bars">
