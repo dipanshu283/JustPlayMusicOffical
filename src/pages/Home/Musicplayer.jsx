@@ -47,6 +47,8 @@ function Musicplayer(props) {
             href="https://youtu.be/Q2D5_xGXdfE?list=RDQ2D5_xGXdfE"
             rel="noreferrer"
             target="_blank"
+            style={{ textDecoration: "none" }}
+
           >
         <i
           className={`fas playclass fa-play`}

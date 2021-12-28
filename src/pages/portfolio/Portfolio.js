@@ -73,6 +73,7 @@ const Portfolio = () => {
 
             <a
               href="https://youtu.be/Q2D5_xGXdfE?list=RDQ2D5_xGXdfE"
+              style={{ textDecoration: 'none' }}
               rel="noreferrer"
               target="_blank"
             >
@@ -102,8 +103,10 @@ const Portfolio = () => {
             </div>
             <a
                 href="https://youtu.be/N5ufpsQ56pM"
+                style={{ textDecoration: 'none' }}
                 rel="noreferrer"
                 target="_blank"
+             
               >
 
             <i

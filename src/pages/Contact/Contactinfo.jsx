@@ -57,16 +57,17 @@ const Contact = () => {
         <div className="wrap">
           <div className="infoo">
             <h2 className="contactfont leavefont">Contact</h2>
-
+            <a href="tel:+91 8878850402" style={{ textDecoration: 'none' }}>
             <h4 className="he">
               <i className="fas fa-phone-alt"></i> PHONE
             </h4>
-            <p>+91 88788 50402</p>
-            <p>+91 89822 86717</p>
+          <p >+91 88788 50402</p> </a>
+           <a href="tel:+91 892286717" style={{ textDecoration: 'none' }}><p>+91 89822 86717</p> </a>
+           <a href=" mailto:justplaymusic28@gmail.com" style={{ textDecoration: 'none' }}>
             <h4 className="he">
-              <i className="far fa-envelope"></i> Email
+           <i className="far fa-envelope"></i> Email 
             </h4>
-            <p>justplaymusic28@gmail.com</p>
+           <p>justplaymusic28@gmail.com</p> </a>
             <p></p>
             {/* <h4 className="he">
               <i className="fas fa-street-view"></i> ADDRESS
