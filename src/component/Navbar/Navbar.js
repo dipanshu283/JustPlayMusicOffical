@@ -10,11 +10,14 @@ const Navbar = () => {
   const [sidebar, setSidebar] = useState(false);
 
   const showSidebar = () => setSidebar(!sidebar);
+  const logo = require("./justplaymusic.png");
 
   return (
     <nav className="navbar navbar-expand-lg navbar-mainbg">
       <NavLink className="navbar-brand navbar-logo" to="/" exact>
-        <h2 className="main_name"> JustPlayMusic </h2>
+        <img src={logo} alt="logo" width="50px" style={{marginLeft:"20px"}}/>
+
+
       </NavLink>
 
       <IconContext.Provider  value={{color:"#fff"}}>

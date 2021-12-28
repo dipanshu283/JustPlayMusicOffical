@@ -25,7 +25,7 @@ const Portfolio = () => {
   return (
     <>
       <div className="home_main contactmain ">
-        <h1 className="main_heading">Just Play Music Offical. </h1>
+      <h2 className="main_name main_heading"> JustPlayMusic </h2>
       </div>
       <div className="contact_wrapper ">
         <h1 className="contact_heading">

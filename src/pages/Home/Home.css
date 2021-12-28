@@ -2,6 +2,30 @@
 @import url("https://fonts.googleapis.com/css2?family=Chango&family=Pushster&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Chango&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Vujahday+Script&display=swap");
 
+.main_name {
+  font-size: 50px;
+  font-weight: 600;
+  /* text-shadow: 2px 3px 42px rgba(86, 212, 243, 0.158); */
+  letter-spacing: 4px;
+
+  background: -webkit-linear-gradient(
+    115deg,
+    #370617 5%,
+    #6a040f 17%,
+    #9d0208 29%,
+    #d00000 44%,
+    #dc2f02 66%,
+    #e85d04 83%,
+    #f48c06 96%,
+    #faa307 100%,
+    #ffba08 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-family: "Pushster", "cursive";
+  -webkit-text-fill-color: transparent;
+}
+
 .home_main {
   display: flex;
   justify-content: center;
@@ -22,19 +46,13 @@
   background-size: cover;
   background-position: center;
 }
-.contact_wrapper{
+.contact_wrapper {
   padding-top: 40px;
 }
-.contact_heading{
+.contact_heading {
   background-color: rgba(0, 0, 0, 0);
 }
-.main_heading {
-  color: #bfd6ec;
-  font-size: 50px;
-  font-weight: 700;
-  text-shadow: 2px 3px 42px rgba(86, 212, 243, 0.705);
-  font-family: "Vujahday Script", cursive;
-}
+
 
 .main_pera {
   color: #bfd6ec;
@@ -43,8 +61,8 @@
   font-weight: 500;
   font-size: 17px;
 }
-.tag{
-  color:#b8a644 ;
+.tag {
+  color: #b8a644;
   font-weight: 500;
   /* font-size: 30px; */
 }
@@ -61,8 +79,7 @@
   font-family: "Lato", sans-serif;
 }
 .feature_heading {
-  
-  color:#b8a644 ;
+  color: #b8a644;
   text-transform: uppercase;
   font-weight: 500;
 }
@@ -72,7 +89,6 @@
   font-weight: 200;
   font-size: 30px;
 }
-
 @media only screen and (min-width: 550px) and (max-width: 960px) {
   .home_main {
     height: 65vh;
@@ -87,11 +103,11 @@
     background-position: center;
   }
   .main_heading {
-    font-size: 40px;
-}
-.main_pera{
-  font-size: 13px;
-}
+    font-size: 45px;
+  }
+  .main_pera {
+    font-size: 13px;
+  }
 }
 
 @media only screen and (max-width: 550px) {
@@ -108,29 +124,28 @@
     background-position: center;
     background-size: cover;
     background-position: center;
-    
   }
   .main_heading {
-    font-size: 28px;
-}
-.main_pera{
-  font-size: 10px;
-}
+    font-size: 35px;
+  }
+  .main_pera {
+    font-size: 10px;
+  }
 }
 
-.newsongswrapper{
+.newsongswrapper {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
-.seemore{
+.seemore {
   background-color: rgba(255, 0, 0, 0);
   padding: 5px 15px;
-  border: 2px solid #b8a644 ;
+  border: 2px solid #b8a644;
   border-radius: 1px;
 }
-.seemore:hover{
+.seemore:hover {
   border: 2px solid #d4b608;
-  box-shadow: 0px 0px 40px 10px  rgba(238, 255, 3, 0.192);
+  box-shadow: 0px 0px 40px 10px rgba(238, 255, 3, 0.192);
 }

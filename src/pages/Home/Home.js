@@ -10,8 +10,9 @@ const Home = () => {
   return (
     <>
       <div className="home_main">
-        <h1 className="main_heading">Just Play Music Offical. </h1>
-         {/* <h5 className='tag'></h5> */}
+        {/* <h1 className="main_heading">Just Play Music Offical. </h1> */}
+                <h2 className="main_name main_heading"> JustPlayMusic </h2>
+
       </div>
       <section className="featured">
         <h3 className="feature_heading">featured</h3>
@@ -22,10 +23,9 @@ const Home = () => {
         <Musicplayer/>
         </div>
             <NavLink className="nav-link" to="/portfolio" exact>
-            <div className="seemore" style={{color:"#b8a644"}}>
-               <span style={{marginRight:"18px"}}>See More From</span>  
-                <i 
-                className="far fa-address-book" style={{marginRight:"2px"}}>
+            <div className="seemore" style={{color:"#b8a644" }}>
+               <span style={{marginRight:"18px"}}>See More From</span><i 
+                className="far fa-address-book" style={{marginRight:"6px" , color:"#b8a644"}}>
                 </i>Portfolio
               </div>
               </NavLink> 

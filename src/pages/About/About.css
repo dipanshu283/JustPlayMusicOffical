@@ -19,3 +19,21 @@
     margin-right: 5px;
     font-weight: 300;
 }
+.readmore{
+    border-radius: 20px;
+}
+.btnshowhide{
+    display: none;
+}
+
+
+@media only screen and (max-width: 664px) {
+
+    .parashowhide{
+        display: none;
+
+    }
+    .btnshowhide{
+        display: block;
+    }
+}

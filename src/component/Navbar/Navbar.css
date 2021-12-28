@@ -15,14 +15,7 @@ body {
     position: relative;
 }
 
-.main_name{
 
-  background: -webkit-linear-gradient(115deg, #370617 5%, #6a040f 17%, #9d0208 29%, #d00000 44%, #dc2f02  66%, #e85d04 83%, #f48c06 96%, #faa307 100%, #ffba08 100%);  
-  -webkit-background-clip: text;
-  background-clip: text;
-  font-family:"Pushster" , 'cursive';
-  -webkit-text-fill-color: transparent;;
-}
 
 
 .nav-item{

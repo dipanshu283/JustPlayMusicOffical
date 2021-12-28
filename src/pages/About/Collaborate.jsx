@@ -1,16 +1,16 @@
 import React from "react";
+import { Collaboration } from "./Collaboration";
 import "./ourteam.css";
-import { TeamMember } from "./TeamMember";
 
-function Ourteam(props) {
+function Collaborate(props) {
   const insta = require("./imginsta.png");
   return (
     // <div className="ourteamwrapper">
     <>
-      <p className="ourteamheading">the team</p>
+      <p className="ourteamheading">Collaborate Artist</p>
 
       <div className="memberwrapper">
-        {TeamMember.map((member, index) => {
+        {Collaboration.map((member, index) => {
           return (
             <div key={index} data-aos="zoom-in"  data-aos-easing="ease-in-out" data-aos-duration="1000" className="memberbox">
               <img src={member.img} width="300px" height="400px" alt="" />
@@ -36,4 +36,4 @@ function Ourteam(props) {
   );
 }
 
-export default Ourteam;
+export default Collaborate;

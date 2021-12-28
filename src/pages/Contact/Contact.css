@@ -149,6 +149,9 @@ p{
     .formword{
         margin-top: 100px;
     }
+    .spacing{
+        display: none;
+    }
 
     
 }
@@ -170,6 +173,9 @@ p{
     }
     .formword{
         margin-top: 100px;
+    }
+    .spacing{
+        display: none;
     }
     
 
