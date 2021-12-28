@@ -11,7 +11,7 @@ export const TeamMember=[
     {
         img:require("./aksh.jpg"),
         name:"aksh sawarne",
-        profession:"ower ,  lyrics",
+        profession:"ower ,  lyrices , music composer , project head",
         instaid:"https://instagram.com/himanshu3264?utm_medium=copy_link"
     },
     {

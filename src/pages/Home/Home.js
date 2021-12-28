@@ -11,7 +11,7 @@ const Home = () => {
     <>
       <div className="home_main">
         {/* <h1 className="main_heading">Just Play Music Offical. </h1> */}
-                <h2 className="main_name main_heading" data-aos="zoom-in-down"  data-aos-easing="ease-in-out" data-aos-once="true" data-aos-duration="2000" data-aos-delay="400"   > JustPlayMusic </h2>
+                <h2 className="main_name main_heading" data-aos="zoom-in-down"  data-aos-easing="ease-in-out" data-aos-once="true" data-aos-duration="2000" data-aos-delay="400"   > Just Play Music </h2>
 
       </div>
       <section className="featured">

@@ -17,7 +17,6 @@ const Contact = () => {
 
   const imginsta = require("./imginsta.png");
   const metaimg = require("./meta.png");
-  const constactusr = require('./contactusy.png');
 
 
 

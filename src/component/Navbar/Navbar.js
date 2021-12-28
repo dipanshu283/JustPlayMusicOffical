@@ -15,8 +15,7 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-mainbg">
       <NavLink className="navbar-brand navbar-logo" to="/JustPlayMusicOffical" exact>
-        <img src={logo} alt="logo" width="50px" style={{marginLeft:"20px"}}/>
-
+        <img src={logo} alt="logo" width="35px" style={{marginLeft:"20px"}}/>
 
       </NavLink>
 

@@ -5,22 +5,22 @@ import intro from "./mumtaznewintro.m4a";
 function Musicplayer(props) {
   let songg = new Audio(intro);
   const [playsong, setplaysong] = useState(false);
-  const [playbutton, setplaybutton] = useState("play");
+  // const [playbutton, setplaybutton] = useState("play");
   const [anime, setanime] = useState("");
   const funcplay = () => {
     setplaysong(true);
     songg.play();
 
-    setplaybutton("square");
-    console.log(playbutton);
+    // setplaybutton("square");
+    // console.log(playbutton);
     setanime("anime");
   };
 
   const funcpause = () => {
     setplaysong(false);
     songg.pause();
-    setplaybutton("play");
-    console.log(playbutton);
+    // setplaybutton("play");
+    // console.log(playbutton);
     setanime("");
   };
 
@@ -30,28 +30,30 @@ function Musicplayer(props) {
         <h2 className="musictitle">MUMTAZ</h2>
         <p className="musicartist">Simarjeet Kaur , Mani Singh</p>
         <div className={`musciplayerimgdiv ${anime}`}>
-          <a
-            href="https://youtu.be/Q2D5_xGXdfE?list=RDQ2D5_xGXdfE"
-            rel="noreferrer"
-            target="_blank"
-          >
+        
             <img
               className="introimg"
               src={require("./mumtaaz.png")}
               alt="img"
-            />
-          </a>
-        </div>
-
-        <i
-          className={`fas playclass fa-${playbutton}`}
-          onClick={(e) => {
+              onClick={(e) => {
             console.log(e);
             playsong ? funcpause() : funcplay();
           }}
-        ></i>
+            />
+        
+        </div>
 
-        <p className="fullsong"> To listen full song tab above image. </p>
+        <a
+            href="https://youtu.be/Q2D5_xGXdfE?list=RDQ2D5_xGXdfE"
+            rel="noreferrer"
+            target="_blank"
+          >
+        <i
+          className={`fas playclass fa-play`}
+        ></i>
+          </a>
+
+        <p className="fullsong"> To listen full song tab play icon. </p>
       </div>
     </>
   );
