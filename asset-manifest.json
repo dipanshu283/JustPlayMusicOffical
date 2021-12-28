@@ -1,22 +1,25 @@
 {
   "files": {
-    "main.css": "/JustPlayMusicOffical/static/css/main.dcf1718b.css",
-    "main.js": "/JustPlayMusicOffical/static/js/main.a3a3f4cb.js",
+    "main.css": "/JustPlayMusicOffical/static/css/main.5f3496ea.css",
+    "main.js": "/JustPlayMusicOffical/static/js/main.c986fb78.js",
     "static/js/787.eb516e35.chunk.js": "/JustPlayMusicOffical/static/js/787.eb516e35.chunk.js",
     "static/media/Mumtaaz.mp3": "/JustPlayMusicOffical/static/media/Mumtaaz.99915863a29ff94114e5.mp3",
     "static/media/mumtaaz.png": "/JustPlayMusicOffical/static/media/mumtaaz.9fd6f0468436fe603f8e.png",
     "static/media/wallpaperflare.com_wallpaper.jpg": "/JustPlayMusicOffical/static/media/wallpaperflare.com_wallpaper.4d6d188c145dcdaffda6.jpg",
     "static/media/main_img2.jpg": "/JustPlayMusicOffical/static/media/main_img2.af2273d77054916a9b25.jpg",
-    "static/media/cont.jpg": "/JustPlayMusicOffical/static/media/cont.ed37646b83ddc4b9fb4c.jpg",
     "static/media/contactimg.jpg": "/JustPlayMusicOffical/static/media/contactimg.ed37646b83ddc4b9fb4c.jpg",
+    "static/media/himanshu.jpeg": "/JustPlayMusicOffical/static/media/himanshu.0912cbe1bac4f0e146e5.jpeg",
+    "static/media/simarjeetkuar.jpg": "/JustPlayMusicOffical/static/media/simarjeetkuar.1164b368c4cf44452134.jpg",
+    "static/media/nikharjuneja.jpg": "/JustPlayMusicOffical/static/media/nikharjuneja.577e9055a2f628d53c09.jpg",
+    "static/media/imginsta.png": "/JustPlayMusicOffical/static/media/imginsta.98ded4a6777f552141f6.png",
     "static/media/contactusy.png": "/JustPlayMusicOffical/static/media/contactusy.2c35e4b551f68e2996c5.png",
     "index.html": "/JustPlayMusicOffical/index.html",
-    "main.dcf1718b.css.map": "/JustPlayMusicOffical/static/css/main.dcf1718b.css.map",
-    "main.a3a3f4cb.js.map": "/JustPlayMusicOffical/static/js/main.a3a3f4cb.js.map",
+    "main.5f3496ea.css.map": "/JustPlayMusicOffical/static/css/main.5f3496ea.css.map",
+    "main.c986fb78.js.map": "/JustPlayMusicOffical/static/js/main.c986fb78.js.map",
     "787.eb516e35.chunk.js.map": "/JustPlayMusicOffical/static/js/787.eb516e35.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dcf1718b.css",
-    "static/js/main.a3a3f4cb.js"
+    "static/css/main.5f3496ea.css",
+    "static/js/main.c986fb78.js"
   ]
 }
