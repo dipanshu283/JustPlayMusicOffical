@@ -45,11 +45,11 @@ const Contact = () => {
 
   return (
     <>
+      <div className="contact_wrapper">
 
-        <h1 className="contact_heading">
+        <h1 className="contact_heading blackbg">
           <span className="thin">CONTACT</span> Us
         </h1>
-      <div className="contact_wrapper">
 
         <div className="formimg">
         <div className="wrap">
