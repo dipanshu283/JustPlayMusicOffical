@@ -1,0 +1,21 @@
+.paraa{
+    font-weight: 300;
+    margin: 0px 10% ;
+    text-align: center;
+    letter-spacing: 0.9px;
+
+}
+.contact_heading{
+    background-color: black;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0%;
+    letter-spacing: 2px;
+
+}
+.thin{
+    margin-right: 5px;
+    font-weight: 300;
+}

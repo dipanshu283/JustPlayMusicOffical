@@ -1,11 +1,10 @@
 .contact_wrapper{
-    padding-top: 50px;
-    background-color: rgb(12, 11, 11);
+    background-color: rgb(0, 0, 0);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: start;
-   min-height: 80vh;
+    width: 100%;
 }
 .contactmain{
     height: 50vh;
@@ -14,6 +13,7 @@
 .contact_heading{
     color: #b8a644;
     font-weight: 500;
+    background-color: rgba(0, 0, 0, 0);
 
 }
 .thin{
@@ -53,7 +53,7 @@
 }
 .formword{
     width: 300px;
-    margin-top: 30px;
+    /* margin-top: 30px; */
     padding-left: 25px;
     
 }
@@ -64,23 +64,25 @@
     outline: none;
     width: 90%;
     /* padding: 6px; */
-    padding: 2px;
-    background-color: rgba(255, 255, 255, 0);
-    border-bottom: 1.5px solid rgb(255, 255, 255);
+    padding: 4px;
+    background-color: rgba(0, 0, 0, 0.589);
+    border: 2px solid rgb(134, 129, 129);
     color: white;
-    margin-bottom: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
 }
  
 
 .submitbtn{
     margin: 20px 0px;
-    padding: 5px 10px ;
-    border-radius: 10px;
-    background-color: #b8a644;
+    padding: 15px 18px ;
+    border-radius: 6px;
+    background-color: #cf9c10;
     color: rgb(239, 243, 245);
     border:none;
     font-weight: 500;
-    font-size: 17px;
+    font-size: 14px;
+    letter-spacing: 1.4px;
 
 }
 .submitbtn:hover{
@@ -89,7 +91,8 @@
 .spacing{
     font-size: 1;
     font-weight: 300;
-    color:white
+    color:white;
+    margin-left: 0px;
     
 }
 .infoo{
@@ -105,6 +108,7 @@
 .contactfont{
     margin-bottom: 30px;
     color: white;
+    letter-spacing: 1px;
 }
 
 p{
@@ -113,19 +117,19 @@ p{
 }
 .he{
     color: #b8a644;
-    font-weight: 700;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 1px;
 }
 .fa-youtube{
-    color: #b8a644;
+    color: #ad1b1b;
     font-size: 30px;
-    padding-top: 10px;
+    padding-top: 15px;
     padding-right: 20px;
+    margin-left: 35px;
 }
-
-.fa-instagram{
-    color: #b8a644;
-    font-size: 30px;
-
+.insta:hover{
+    transform: scale(1.09);
 }
 
 .fa-youtube:hover{

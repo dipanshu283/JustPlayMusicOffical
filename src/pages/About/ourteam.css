@@ -1,0 +1,56 @@
+
+.ourteamheading{
+    margin: 30px auto;
+    font-weight: 500;
+    font-size: 17px;
+    color:rgb(255, 255, 255);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-top: 70px;
+    /* background-color: rgba(255, 0, 0, 0); */
+    padding: 7px 30px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #b8a644;
+    border-top: 3px solid #b8a644;
+    border-radius: 10%;
+    position: relative;
+}
+.memberwrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content :center; 
+    align-items: start;
+}
+.memberbox{
+    width: 304px;
+    margin: 20px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  
+}
+.m_name{
+    color: white;
+    text-transform: uppercase;
+    margin: 20px;
+    margin-bottom: 7px;
+    font-weight: 200; 
+    letter-spacing: 1.2px;    
+}
+.m_profession{
+    color: #b8a644;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 0px 15px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid whitesmoke;
+}
+.insta:hover{
+    transform: scale(1.5);
+    
+
+}

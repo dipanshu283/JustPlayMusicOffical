@@ -22,7 +22,12 @@
   background-size: cover;
   background-position: center;
 }
-
+.contact_wrapper{
+  padding-top: 40px;
+}
+.contact_heading{
+  background-color: rgba(0, 0, 0, 0);
+}
 .main_heading {
   color: #bfd6ec;
   font-size: 50px;

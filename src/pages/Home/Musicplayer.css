@@ -11,7 +11,7 @@
     border-radius: 30px;
 
 }
-.musciplayerimgdiv0 {   
+.musciplayerimgdiv {   
     width: 230px;
     height: 230px;
     margin-top: 20px;
@@ -31,6 +31,8 @@
 .musictitle{
     
     font-weight: 700;
+    font-size: 28px;
+    letter-spacing: 2px;
 }
 .musicartist{
     color: rgba(0, 0, 0, 0.822);
@@ -72,6 +74,8 @@
 .fullsong{
     margin: 5px 10px;
     margin-top: 25px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.616);
 }
 
 @media only screen and (max-width: 360px){
@@ -80,6 +84,8 @@
         width: 210px;
         height: 210px;
     }
+   
+    
 
 
 }

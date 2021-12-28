@@ -1,5 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import Aboutinfo from "../About/Aboutinfo";
+import Contactinfo from "../Contact/Contactinfo";
 import "./Home.css";
 import Musicplayer from "./Musicplayer";
 const Home = () => {
@@ -27,6 +29,8 @@ const Home = () => {
                 </i>Portfolio
               </div>
               </NavLink> 
+              <Aboutinfo/>
+              <Contactinfo/>
       </section>
     </>
   );
