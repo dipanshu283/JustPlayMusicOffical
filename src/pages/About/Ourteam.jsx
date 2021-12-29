@@ -12,7 +12,9 @@ function Ourteam(props) {
       <div className="memberwrapper">
         {TeamMember.map((member, index) => {
           return (
-            <div key={index} data-aos="zoom-in"  data-aos-easing="ease-in-out" data-aos-duration="1000" className="memberbox">
+            <div key={index}
+            //  data-aos="zoom-in"  data-aos-easing="ease-in-out" data-aos-duration="1000" 
+             className="memberbox">
               <img src={member.img} width="300px" height="400px" alt="" />
               <h5 className="m_name">
                 {member.name}
