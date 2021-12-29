@@ -80,7 +80,8 @@ const Contact = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <i className="fab fa-youtube insta"></i>
+                <i className="fab fa-youtube insta"
+         ></i>
               </a>
 
               <a

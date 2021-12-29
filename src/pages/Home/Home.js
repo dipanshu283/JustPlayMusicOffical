@@ -4,6 +4,10 @@ import Aboutinfo from "../About/Aboutinfo";
 import Contactinfo from "../Contact/Contactinfo";
 import "./Home.css";
 import Musicplayer from "./Musicplayer";
+import AOS from "aos";
+import "aos/dist/aos.css";
+// ..
+AOS.init();
 const Home = () => {
   // const mainImg = require('./mainImg.jpg');
 
@@ -13,11 +17,11 @@ const Home = () => {
         {/* <h1 className="main_heading">Just Play Music Offical. </h1> */}
         <h2
           className="main_name main_heading"
-          // data-aos="zoom-in-down"
-          // data-aos-easing="ease-in-out"
-          // data-aos-once="true"
-          // data-aos-duration="2000"
-          // data-aos-delay="400"
+          data-aos="zoom-in-down"
+          data-aos-easing="ease-in-out"
+          data-aos-once="true"
+          data-aos-duration="2000"
+          data-aos-delay="400"
         >
           Just Play Music
         </h2>
@@ -31,7 +35,15 @@ const Home = () => {
           <Musicplayer />
         </div>
         <NavLink className="nav-link" to="/portfolio">
-          <div className="seemore" style={{ color: "#b8a644" }}>
+          <div
+            className="seemore"
+            data-aos="flip-up"
+            data-aos-easing="ease"
+            data-aos-once="false"
+            data-aos-duration="500"
+            data-aos-delay="0"
+            style={{ color: "#b8a644" }}
+          >
             <span style={{ marginRight: "18px" }}>See More From</span>
             <i
               className="far fa-address-book"
@@ -40,7 +52,7 @@ const Home = () => {
             Portfolio
           </div>
         </NavLink>
-        <Aboutinfo />
+        <Aboutinfo/>
         <Contactinfo />
       </section>
     </>

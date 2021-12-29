@@ -1,6 +1,10 @@
 import React, { useState } from "react";
 import "./Musicplayer.css";
 import intro from "./mumtaznewintro.m4a";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+// ..
+AOS.init();
 
 function Musicplayer(props) {
   let songg = new Audio(intro);
@@ -26,34 +30,35 @@ function Musicplayer(props) {
 
   return (
     <>
-      <div className="musicplayerwrapper">
+      <div
+        className="musicplayerwrapper"
+        data-aos="zoom-in-down"
+        data-aos-easing="ease-in-out"
+        data-aos-once="false"
+        data-aos-duration="1000"
+      >
         <h2 className="musictitle">MUMTAZ</h2>
         <p className="musicartist">Simarjeet Kaur , Mani Singh</p>
         <div className={`musciplayerimgdiv ${anime}`}>
-        
-            <img
-              className="introimg"
-              src={require("./mumtaz.png")}
-              alt="img"
-              onClick={(e) => {
-            console.log(e);
-            playsong ? funcpause() : funcplay();
-          }}
-            />
-        
+          <img
+            className="introimg"
+            src={require("./mumtaz.png")}
+            alt="img"
+            onClick={(e) => {
+              console.log(e);
+              playsong ? funcpause() : funcplay();
+            }}
+          />
         </div>
 
         <a
-            href="https://youtu.be/Q2D5_xGXdfE?list=RDQ2D5_xGXdfE"
-            rel="noreferrer"
-            target="_blank"
-            style={{ textDecoration: "none" }}
-
-          >
-        <i
-          className={`fas playclass fa-play`}
-        ></i>
-          </a>
+          href="https://youtu.be/Q2D5_xGXdfE?list=RDQ2D5_xGXdfE"
+          rel="noreferrer"
+          target="_blank"
+          style={{ textDecoration: "none" }}
+        >
+          <i className={`fas playclass fa-play`}></i>
+        </a>
 
         <p className="fullsong"> To listen full song tab play icon. </p>
       </div>

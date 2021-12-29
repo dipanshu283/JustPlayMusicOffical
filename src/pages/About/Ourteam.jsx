@@ -1,6 +1,10 @@
 import React from "react";
 import "./ourteam.css";
 import { TeamMember } from "./TeamMember";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+// ..
+AOS.init();
 
 
 function Ourteam(props) {
@@ -8,13 +12,22 @@ function Ourteam(props) {
   return (
     // <div className="ourteamwrapper">
     <>
-      <p className="ourteamheading">the team</p>
+      <p className="ourteamheading"
+         data-aos="fade-right"
+          data-aos-easing="ease"
+          data-aos-once="false"
+          data-aos-duration="1500"
+          data-aos-delay="0">the team</p>
 
       <div className="memberwrapper">
         {TeamMember.map((member, index) => {
           return (
             <div key={index}
-            //  data-aos="zoom-in"  data-aos-easing="ease-in-out" data-aos-duration="1000" 
+              data-aos="zoom-in"
+          data-aos-easing="ease"
+          data-aos-once="false"
+          data-aos-duration="1500"
+          data-aos-delay="0"
              className="memberbox">
               <img src={member.img} width="300px" height="400px" alt="" />
               <h5 className="m_name">

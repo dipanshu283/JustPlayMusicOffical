@@ -1,6 +1,7 @@
 import React from "react";
 import "./Footer.css";
 
+
 function Footer(props) {
   return (
     <div className="footer">
@@ -11,7 +12,8 @@ function Footer(props) {
           target="_blank"
           rel="noreferrer"
         >
-          <i className="fab fa-instagram"></i>
+          <i className="fab fa-instagram"
+          ></i>
         </a>
         <a
           href="https://in.linkedin.com/in/dipanshu-sahu-b50678202?trk=people-guest_people_search-card"
