@@ -22,13 +22,13 @@ const App = () => {
         <Route exact path="/JustPlayMusicOffical" element={<Home />} />
       </Routes>
       <Routes>
-        <Route path="portfolio" element={<Portfolio/>} />
+        <Route path="/portfolio" element={<Portfolio/>} />
       </Routes>
       <Routes>
-        <Route path="contact" element={<Contact/>} />
+        <Route path="/contact" element={<Contact/>} />
       </Routes>
       <Routes>
-        <Route path="about" element={<About/>} />
+        <Route path="/about" element={<About/>} />
       </Routes>
 
     <Footer/>      
