@@ -62,7 +62,7 @@ const Portfolio = () => {
             <div className={`musciplayerimgdiv ${anime}`}>
               <img
                 className="introimg"
-                src={require("./mumtaaz.png")}
+                src={require("./mumtaz.png")}
                 alt="img"
                 onClick={(e) => {
                   console.log(e);
@@ -73,9 +73,10 @@ const Portfolio = () => {
 
             <a
               href="https://youtu.be/Q2D5_xGXdfE?list=RDQ2D5_xGXdfE"
-              style={{ textDecoration: 'none' }}
+              style={{ textDecoration: "none" }}
               rel="noreferrer"
               target="_blank"
+              title=" Song Youtube Link"
             >
               <i className={`fas playclass fa-play`}></i>
             </a>
@@ -89,31 +90,25 @@ const Portfolio = () => {
             <h2 className="musictitle">JAANI NA</h2>
             <p className="musicartist">Guru Mankan</p>
             <div className={`musciplayerimgdiv ${anime2}`}>
-             
-                <img
-                  className="introimg"
-                  src={require("./jaavinaimg.jpg")}
-                  alt="img"
-                  onClick={(e) => {
-                console.log(e);
-                playsong2 ? funcpause2() : funcplay2();
-              }}
-                />
-          
+              <img
+                className="introimg"
+                src={require("./jaavinaimg.jpg")}
+                alt="img"
+                onClick={(e) => {
+                  console.log(e);
+                  playsong2 ? funcpause2() : funcplay2();
+                }}
+              />
             </div>
             <a
-                href="https://youtu.be/N5ufpsQ56pM"
-                style={{ textDecoration: 'none' }}
-                rel="noreferrer"
-                target="_blank"
-             
-              >
-
-            <i
-              className={`fas playclass fa-play`}
-            
-            ></i>
-                </a>
+              href="https://youtu.be/N5ufpsQ56pM"
+              style={{ textDecoration: "none" }}
+              rel="noreferrer"
+              target="_blank"
+              title=" Song Youtube Link"
+            >
+              <i className={`fas playclass fa-play`}></i>
+            </a>
 
             <p className="fullsong"> To listen full song tab above image. </p>
           </div>

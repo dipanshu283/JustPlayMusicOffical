@@ -33,7 +33,7 @@ function Musicplayer(props) {
         
             <img
               className="introimg"
-              src={require("./mumtaaz.png")}
+              src={require("./mumtaz.png")}
               alt="img"
               onClick={(e) => {
             console.log(e);

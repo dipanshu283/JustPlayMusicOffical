@@ -1,5 +1,5 @@
 import React from 'react';
-import Contactinfo from "./Contactinfo"
+import Contactinfo from "./Contactinfo";
 
 function Contact(props) {
   return (

@@ -1,6 +1,5 @@
 import React , {useState}  from "react";
 import "./Contact.css";
-import "./contactusy.png";
 import emailjs from 'emailjs-com';
 import { useRef } from "react";
 
@@ -15,8 +14,8 @@ const Result  = ()=>{
 
 const Contact = () => {
 
-  const imginsta = require("./imginsta.png");
-  const metaimg = require("./meta.png");
+  const imginsta = require("./instaan.jpg");
+  const metaimg = require("./metaan.jpg");
 
 
 
@@ -57,13 +56,13 @@ const Contact = () => {
         <div className="wrap">
           <div className="infoo">
             <h2 className="contactfont leavefont">Contact</h2>
-            <a href="tel:+91 8878850402" style={{ textDecoration: 'none' }}>
+            <a href="tel:+91 8878850402" title="call" style={{ textDecoration: 'none' }}>
             <h4 className="he">
               <i className="fas fa-phone-alt"></i> PHONE
             </h4>
           <p >+91 88788 50402</p> </a>
-           <a href="tel:+91 892286717" style={{ textDecoration: 'none' }}><p>+91 89822 86717</p> </a>
-           <a href=" mailto:justplaymusic28@gmail.com" style={{ textDecoration: 'none' }}>
+           <a href="tel:+91 892286717" title="call" style={{ textDecoration: 'none' }}><p>+91 89822 86717</p> </a>
+           <a href=" mailto:justplaymusic28@gmail.com" title="sendMail" style={{ textDecoration: 'none' }}>
             <h4 className="he">
            <i className="far fa-envelope"></i> Email 
             </h4>
