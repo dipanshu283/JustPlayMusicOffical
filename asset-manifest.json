@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/JustPlayMusicOffical/static/css/main.aab61eec.css",
-    "main.js": "/JustPlayMusicOffical/static/js/main.2f544e7f.js",
+    "main.css": "/JustPlayMusicOffical/static/css/main.2fb2cf24.css",
+    "main.js": "/JustPlayMusicOffical/static/js/main.f0925203.js",
     "static/js/787.eb516e35.chunk.js": "/JustPlayMusicOffical/static/js/787.eb516e35.chunk.js",
     "static/media/wallpaperflare.com_wallpaper.jpg": "/JustPlayMusicOffical/static/media/wallpaperflare.com_wallpaper.4d6d188c145dcdaffda6.jpg",
     "static/media/main_img2.jpg": "/JustPlayMusicOffical/static/media/main_img2.af2273d77054916a9b25.jpg",
@@ -23,12 +23,12 @@
     "static/media/jaavinaimg.jpg": "/JustPlayMusicOffical/static/media/jaavinaimg.e905934bbc6ccd2d735d.jpg",
     "static/media/imginsta.png": "/JustPlayMusicOffical/static/media/imginsta.98ded4a6777f552141f6.png",
     "index.html": "/JustPlayMusicOffical/index.html",
-    "main.aab61eec.css.map": "/JustPlayMusicOffical/static/css/main.aab61eec.css.map",
-    "main.2f544e7f.js.map": "/JustPlayMusicOffical/static/js/main.2f544e7f.js.map",
+    "main.2fb2cf24.css.map": "/JustPlayMusicOffical/static/css/main.2fb2cf24.css.map",
+    "main.f0925203.js.map": "/JustPlayMusicOffical/static/js/main.f0925203.js.map",
     "787.eb516e35.chunk.js.map": "/JustPlayMusicOffical/static/js/787.eb516e35.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.aab61eec.css",
-    "static/js/main.2f544e7f.js"
+    "static/css/main.2fb2cf24.css",
+    "static/js/main.f0925203.js"
   ]
 }
