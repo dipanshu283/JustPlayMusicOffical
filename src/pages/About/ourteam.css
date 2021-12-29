@@ -48,6 +48,7 @@
     padding: 0px 15px;
     padding-bottom: 5px;
     border-bottom: 1px solid whitesmoke;
+    text-align: center;
 }
 .insta:hover{
     transition: 0.7s ease-in-out all;

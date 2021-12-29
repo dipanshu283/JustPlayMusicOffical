@@ -1,185 +1,172 @@
-.contact_wrapper{
-    background-color: rgb(0, 0, 0);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: start;
-    width: 100%;
+.contact_wrapper {
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  width: 100%;
 }
 
-.contactmain{
-    height: 50vh;
+.contactmain {
+  height: 50vh;
 }
 
-.contact_heading{
-    color: #b8a644;
-    font-weight: 500;
-    background-color: rgba(0, 0, 0, 0);
-
+.contact_heading {
+  color: #b8a644;
+  font-weight: 500;
+  background-color: rgba(0, 0, 0, 0);
 }
-.thin{
-    font-weight: 200;
+.thin {
+  font-weight: 200;
 }
 
 @import url(//fonts.googleapis.com/css?family=Montserrat:300,400,500);
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Montserrat:wght@500&family=Righteous&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Montserrat:wght@500&family=Righteous&display=swap");
 
-
-.formimg{
-   background-image: url(contactimg.jpg);
-    background-position: center;
-    background-size: cover;   
-    width: 100%;
-    min-height: 80vh;
-    display: flex;
-    background-color: lavender;
-    align-items: center;
-    justify-content: center;
-    margin-top: 40px;
-    padding: 40px;
+.formimg {
+  background-image: url(contactimg.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  min-height: 80vh;
+  display: flex;
+  background-color: lavender;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  padding: 40px;
 }
-.wrap{
-    background-color:rgba(0, 0, 0, 0.514);
-    padding: 30px 10px;
-    border-radius: 30px;
-    width: 80%;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.leavefont{
-    font-family: 'Righteous', cursive;
-    color: white;
-    margin-bottom: 20px;
-}
-.formword{
-    width: 300px;
-    /* margin-top: 30px; */
-    padding-left: 25px;
-    
+.wrap {
+  background-color: rgba(0, 0, 0, 0.514);
+  padding: 30px 10px;
+  border-radius: 30px;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
 }
 
+.leavefont {
+  font-family: "Righteous", cursive;
+  color: white;
+  margin-bottom: 20px;
+}
+.formword {
+  width: 300px;
+  /* margin-top: 30px; */
+  padding-left: 25px;
+}
 
-.input100{
-    border: none;
-    outline: none;
+.input100 {
+  border: none;
+  outline: none;
+  width: 90%;
+  /* padding: 6px; */
+  padding: 4px;
+  background-color: rgba(0, 0, 0, 0.589);
+  border: 2px solid rgb(134, 129, 129);
+  color: white;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+.submitbtn {
+  margin: 20px 0px;
+  padding: 15px 18px;
+  border-radius: 6px;
+  background-color: #cf9c10;
+  color: rgb(239, 243, 245);
+  border: none;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1.4px;
+}
+.submitbtn:hover {
+  transform: scale(1.02);
+}
+.spacing {
+  font-size: 1;
+  font-weight: 300;
+  color: white;
+  margin-left: 0px;
+}
+.infoo {
+  padding-left: 40px;
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.contactfont {
+  margin-bottom: 30px;
+  color: white;
+  letter-spacing: 1px;
+}
+
+p {
+  font-weight: 500;
+  color: white;
+}
+.he {
+  color: #b8a644;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+.fa-youtube {
+  color: #ad1b1b;
+  font-size: 30px;
+  padding-top: 15px;
+  padding-right: 20px;
+  margin-left: 35px;
+}
+.insta:hover {
+  transform: scale(1.09);
+}
+
+.fa-youtube:hover {
+  transform: scale(1.09);
+}
+.fa-instagram:hover {
+  transform: scale(1.09);
+}
+
+@media only screen and (max-width: 580px) {
+  .wrap {
     width: 90%;
-    /* padding: 6px; */
-    padding: 4px;
-    background-color: rgba(0, 0, 0, 0.589);
-    border: 2px solid rgb(134, 129, 129);
-    color: white;
-    margin-top: 5px;
-    margin-bottom: 15px;
+  }
+  .formword {
+    margin-top: 100px;
+  }
+  .spacing {
+    display: none;
+  }
 }
- 
-
-.submitbtn{
-    margin: 20px 0px;
-    padding: 15px 18px ;
-    border-radius: 6px;
-    background-color: #cf9c10;
-    color: rgb(239, 243, 245);
-    border:none;
-    font-weight: 500;
-    font-size: 14px;
-    letter-spacing: 1.4px;
-
+@media only screen and (max-width: 435px) {
+  .wrap {
+    width: 95%;
+  }
+  .formword {
+    width: 280px;
+    margin-top: 30px;
+    padding-left: 20px;
+  }
+  .infoo {
+    padding-left: 20px;
+    width: 380px;
+  }
+  .formword {
+    margin-top: 100px;
+  }
+  .spacing {
+    display: none;
+  }
 }
-.submitbtn:hover{
-    transform: scale(1.02);
-}
-.spacing{
-    font-size: 1;
-    font-weight: 300;
-    color:white;
-    margin-left: 0px;
-    
-}
-.infoo{
-    padding-left: 40px;
-    width: 400px;
-    display: flex;
-    align-items: center;
-    justify-content: start;
-    align-items: flex-start;
-    flex-direction: column;
-
-}
-.contactfont{
-    margin-bottom: 30px;
-    color: white;
-    letter-spacing: 1px;
-}
-
-p{
-    font-weight: 500;
-    color: white;
-}
-.he{
-    color: #b8a644;
-    font-weight: 500;
-    font-size: 20px;
-    letter-spacing: 1px;
-}
-.fa-youtube{
-    color: #ad1b1b;
-    font-size: 30px;
-    padding-top: 15px;
-    padding-right: 20px;
-    margin-left: 35px;
-}
-.insta:hover{
-    transform: scale(1.09);
-}
-
-.fa-youtube:hover{
-    transform: scale(1.09);
-}
-.fa-instagram:hover{
-    transform: scale(1.09);
-}
-
-@media only screen and (max-width:580px) {
-    
-    .wrap{
-
-        width: 90%;
-    }
-    .formword{
-        margin-top: 100px;
-    }
-    .spacing{
-        display: none;
-    }
-
-    
-}
-@media only screen and (max-width:435px) {
-    
-    .wrap{
-
-        width: 95%;
-    }
-    .formword{
-        width: 280px;
-        margin-top: 30px;
-        padding-left: 20px;
-        
-    }
-    .infoo{
-        padding-left: 20px;
-        width: 380px;
-    }
-    .formword{
-        margin-top: 100px;
-    }
-    .spacing{
-        display: none;
-    }
-    
-
-   
-
-    
+.homepagebtncontact{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  background-color:black;
+  padding: 25px;
 }

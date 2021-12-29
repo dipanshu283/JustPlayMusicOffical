@@ -12,7 +12,7 @@ export const TeamMember=[
         img:require("./aksh.jpg"),
         name:"aksh sawarne",
         profession:"ower ,  lyrices , music composer , project head",
-        instaid:"https://instagram.com/himanshu3264?utm_medium=copy_link"
+        instaid:"https://instagram.com/akshsawarne/"
     },
     {
         img:require("./himanshu.jpeg"),
@@ -24,18 +24,18 @@ export const TeamMember=[
         img:require("./karanjuneja.jpg"),
         name:"karan juneja",
         profession:"video director ",
-        instaid:"https://instagram.com/himanshu3264?utm_medium=copy_link"
+        instaid:"https://instagram.com/kukku_singh/"
     },
     {
         img:require("./lalit.jpg"),
         name:"lalit chouhan",
-        profession:"manegement head",
-        instaid:"https://instagram.com/himanshu3264?utm_medium=copy_link"
+        profession:"manegement",
+        instaid:"https://instagram.com/lalit_chouhan14/"
     },
     {
         img:require("./simar.jpg"),
         name:"simar singh",
-        profession:"manegement head",
+        profession:"manegement",
         instaid:"https://www.instagram.com/sunny_singhss/"
     },
     // {

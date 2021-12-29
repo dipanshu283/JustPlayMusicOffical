@@ -11,11 +11,17 @@ import Home from './pages/Home/Home';
 import Navbar from './component/Navbar/Navbar';
 import Portfolio from './pages/portfolio/Portfolio';
 import Footer from './component/Navbar/Footer';
+import ScrollToTop from './pages/ScrollToTop';
+// import Scroll from './pages/Scroll';
 // import About from './pages/About/About';
+
+
 
 const App = () => {
   return (
    <Router>
+
+   <ScrollToTop>
     <Navbar/>
    
     <Routes>
@@ -31,7 +37,8 @@ const App = () => {
         <Route path="/about" element={<About/>} />
       </Routes>
 
-    <Footer/>      
+    <Footer/> 
+    </ScrollToTop>     
     
    </Router>
   );

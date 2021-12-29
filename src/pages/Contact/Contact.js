@@ -1,5 +1,6 @@
 import React from 'react';
 import Contactinfo from "./Contactinfo";
+import { NavLink } from "react-router-dom";
 
 function Contact(props) {
   return (
@@ -8,6 +9,15 @@ function Contact(props) {
         <h2 className="main_name main_heading"> Just Play Music </h2>
       </div>
       <Contactinfo/>
+      <div className="homepagebtncontact">
+      <NavLink className="nav-link" to="/JustPlayMusicOffical">
+          <div className="seemore" style={{ color: "#b8a644" , marginBottom:"25px"  }}>
+            <span style={{ marginRight: "10px" }}>Go Back To</span><i 
+                className="fas fa-home" style={{ color: "#b8a644"}}>
+                </i> Home Page
+          </div>
+        </NavLink>
+        </div>
       
     </>
   );

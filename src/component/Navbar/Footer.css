@@ -28,3 +28,13 @@
     background-color: rgba(255, 0, 0, 0);
     color: rgb(0, 0, 0);
 }
+.fa-linkedin{
+ margin: 10px;
+ font-size: 30px;
+ font-weight: 600;
+    background-color: rgba(255, 0, 0, 0);
+    color: rgb(0, 0, 0);
+}
+.fa-linkedin:hover{
+    transform: scale(1.07);
+}

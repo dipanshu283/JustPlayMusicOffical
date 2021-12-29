@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import intro1 from "./mumtaznewintro.m4a";
 import intro2 from "./Jaavinanew.m4a";
 import "./portfolio.css";
+import { NavLink } from "react-router-dom";
 const Portfolio = () => {
   let song1 = new Audio(intro1);
   let song2 = new Audio(intro2);
@@ -113,7 +114,16 @@ const Portfolio = () => {
             <p className="fullsong"> To listen full song tab above image. </p>
           </div>
         </div>
+        <NavLink className="nav-link" to="/JustPlayMusicOffical">
+          <div className="seemore" style={{ color: "#b8a644" , marginBottom:"25px" }}>
+            <span style={{ marginRight: "10px" }}>Go Back To</span><i 
+                className="fas fa-home" style={{ color: "#b8a644"}}>
+                </i> Home Page
+          </div>
+        </NavLink>
       </div>
+ 
+      
     </>
   );
 };

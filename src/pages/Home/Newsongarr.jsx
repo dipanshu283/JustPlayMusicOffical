@@ -4,7 +4,5 @@ const Newsongsarr = [
      {name :"test",
     singer:"unknow"}
 ];
-
-
 export default Newsongsarr;
 

@@ -1,6 +1,8 @@
 import React from 'react'
 import Ourteam from './Ourteam';
 import Collaborate from "./Collaborate"
+import { NavLink } from "react-router-dom";
+
 const About = () => {
   return (
     <>
@@ -37,6 +39,14 @@ We are a home to an array of incredible and contemporary work of talented music 
 
         <Ourteam />
         <Collaborate/>
+
+        <NavLink className="nav-link" to="/JustPlayMusicOffical">
+          <div className="seemore" style={{ color: "#b8a644" , marginBottom:"25px" }}>
+            <span style={{ marginRight: "10px" }}>Go Back To</span><i 
+                className="fas fa-home" style={{ color: "#b8a644"}}>
+                </i> Home Page
+          </div>
+        </NavLink>
       </div>
    
       </>
