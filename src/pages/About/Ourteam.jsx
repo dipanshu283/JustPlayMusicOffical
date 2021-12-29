@@ -2,6 +2,7 @@ import React from "react";
 import "./ourteam.css";
 import { TeamMember } from "./TeamMember";
 
+
 function Ourteam(props) {
   const insta = require("./imginsta.png");
   return (
